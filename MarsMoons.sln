@@ -5,7 +5,10 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarsMoons.Core", "MarsMoons.Core\MarsMoons.Core.csproj", "{36970908-A410-4BC2-9792-6825B29D1519}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsMoons.Core.Test", "MarsMoons.Core.Test\MarsMoons.Core.Test.csproj", "{0894A43E-F132-4B8C-967A-9A0B65ECE4AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarsMoons.Core.Test", "MarsMoons.Core.Test\MarsMoons.Core.Test.csproj", "{0894A43E-F132-4B8C-967A-9A0B65ECE4AC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{36970908-A410-4BC2-9792-6825B29D1519} = {36970908-A410-4BC2-9792-6825B29D1519}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
